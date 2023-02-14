@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
 }
@@ -31,53 +30,49 @@ footer {
 .redBox {
     background-color: #ff1d00;
     position: absolute;
-    top: 30%;
-    left: 40%;
-    rotate: 45deg;
-    scale: 2.13;
-    border-radius: 2px;
-    z-index: 1;
-
-    
+    z-index: 0;
+    scale: 0.5;
+    top: 50px;
+    left: 50px;
 }
 
 .yellowBox {
     background-color: #ffeb00;
     position: absolute;
-    scale: 3;
-    top: 50%;
-    left: 40%;
-    z-index: 2;
-    
+    z-index: 1;
+    scale: 1;
+    top: 90px;
+    left: 90px;
 
 }
 
 .pinkBox {
     background-color: #ff9ecf;
     position: absolute;
-    scale: 0.6 1.3;
-    top: 20%;
-    left: 51%;
-    z-index: 0;
+    z-index: 2;
+    scale: 1.5;
+    top: 150px;
+    left: 150px;
+    
 }
 
 .greenBox {
     background-color: #1fd81f;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 3;
+    z-index: 3;    
+    scale: 2;
+    top: 230px;
+    left: 230px;
 
 }
 
 .blueBox {
     background-color: #0180fc;
     position: absolute;
-    scale: 1.3 2;
-    top: 56.8%;
-    left: 34%;
-    z-index: 3;
-    
+    z-index: 4;
+    scale: 3;
+    top: 350px;
+    left: 350px;
     
     
 }
